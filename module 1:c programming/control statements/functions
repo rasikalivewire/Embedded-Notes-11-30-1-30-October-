@@ -1,0 +1,137 @@
+/******************************************************************************
+
+                            Online C Compiler.
+                Code, Compile, Run and Debug C program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <stdio.h>
+//1.without parameters,without return
+/*void add(){
+int a=10;
+int b=20;
+printf("%d",a+b);
+
+}
+
+int main()
+{
+    add();
+
+
+    return 0;
+}*/
+
+//2.with parameters,without return
+/*void add(int a,int b){
+
+printf("%d",a+b);
+
+}
+
+int main()
+{
+    add(5,4);
+
+
+    return 0;
+}*/
+
+
+//3.without parameters,with return
+/*int add(){
+int a=10;
+int b=20;
+int c=a+b;
+return c;
+
+}
+
+int main()
+{
+   int d=add();
+   printf("%d\n",d);
+   printf("%d\n",d*10);
+   printf("%d\n",d%2);
+
+
+    return 0;
+}*/
+
+
+
+//4.with parameters,with return
+/*int add(int a,int b){
+
+return a+b;
+
+}
+
+int main()
+{
+   int d=add(10,6);
+   printf("%d\n",d);
+   printf("%d\n",d*10);
+   printf("%d\n",d%2);
+
+
+    return 0;
+}*/
+
+//1.without parameters,without return
+/*void welcome(){
+    printf("livewire welcomes you");
+}
+
+int main(){
+    welcome();
+}*/
+
+//2.with parameters,without return
+/*void places(char destination1[],char destination2[]){
+    printf("welcome to the tourist place %s\n",destination1);
+    printf("memorable moments %s",destination2);
+}
+int main(){
+    places("ooty","coorg");
+}*/
+
+
+//3.with parameters,with return
+/*int expense(int price){
+    return price*5;
+}
+int main(){
+    int e=expense(1000);
+    printf("your total tour expense is:%d",e);
+}*/
+
+//4.without parameters,with return
+
+int otp(){
+    return 5678;
+}
+int main(){
+    int o=otp();
+    printf("your otp is:%d",o);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
