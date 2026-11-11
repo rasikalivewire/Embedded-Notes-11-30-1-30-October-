@@ -1,0 +1,117 @@
+/******************************************************************************
+
+                            Online C Compiler.
+                Code, Compile, Run and Debug C program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <stdio.h>
+#include <string.h>
+
+/*int main()
+{
+    int arr[5]={20,40,30,60,70};
+    printf("%p\n",arr);
+    printf("%p\n",&arr);
+    
+     printf("%p\n",arr+1);
+    printf("%p\n",&arr+1);
+    
+     printf("%zu\n",sizeof(arr));
+    printf("%zu\n",sizeof(&arr));
+     int arr[5]={20,40,30,60,70};
+     int *ptr=arr;
+     printf("%zu\n",sizeof(arr));
+    printf("%zu\n",sizeof(&arr));
+    printf("%zu\n",sizeof(ptr));
+    printf("%zu\n",sizeof(*ptr));
+     
+    
+
+    return 0;
+}
+
+#include<stdio.h>
+int main(){
+int arr[5] = {10, 20, 30, 40, 50};
+int *ptr = &arr[2]; 
+
+ptr = ptr + 2;      
+printf("%d", *ptr);
+return 0;
+}
+#include<stdio.h>
+int main(){
+int arr[10] = {10, 20,50, 30, 40, 50,60,70};
+int *ptr = &arr[7]; 
+
+ptr = ptr-3;      
+printf("%d", *ptr);
+return 0;
+}*/
+
+/*int arr[]={10,20,30,40};
+
+int *p1=&arr[0];
+
+int *p2=&arr[3];
+
+printf("%ld",p2+p1);
+
+int arr[]={10,20,30,40};
+
+int *p1=&arr[0];
+
+int *p2=&arr[3];
+
+printf("%ld",p2-p1);
+}*/
+
+int main(){
+    char a[10];
+    memset(a,'%',7);
+    a[8]='*';
+    printf("%s\n",a);
+    //printf("%c",a);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
