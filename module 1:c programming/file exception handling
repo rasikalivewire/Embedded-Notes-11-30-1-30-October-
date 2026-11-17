@@ -1,0 +1,181 @@
+/******************************************************************************
+
+                            Online C Compiler.
+                Code, Compile, Run and Debug C program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <stdio.h>
+#include <errno.h>
+#include <stdlib.h>
+
+/*int main() {
+    FILE *fp;
+    char str[100];
+
+    fp = fopen("misra.txt", "r");
+
+    if (fp == NULL) {
+        printf("File not found.");
+        return 1;
+    }
+
+    fgets(str, 100, fp);
+
+    printf("%s", str);
+
+    fclose(fp);
+
+    return 0;
+}*/
+
+//Example 1: Writing to a File
+/*#include <stdio.h>
+
+int main() {
+    FILE *fp;
+
+    fp = fopen("misra.txt", "w");
+
+    if (fp == NULL) {
+        printf("File cannot be opened.");
+        return 1;
+    }
+
+    fprintf(fp, "Hello, embedded systems");
+    fclose(fp);
+
+    printf("Data written successfully.");
+    return 0;
+}*/
+
+//Example 3: Appending Data
+/*#include <stdio.h>
+
+int main() {
+    FILE *fp;
+
+    fp = fopen("misra.txt", "a");
+
+    fprintf(fp, "\nWelcome livewire");
+
+    fclose(fp);
+
+    return 0;
+}
+*/
+//Example 4: Character-by-Character Reading
+/*#include <stdio.h>
+
+int main() {
+    FILE *fp;
+    char ch;
+
+    fp = fopen("misra.txt", "r");
+
+    while ((ch = fgetc(fp)) != EOF) {
+        putchar(ch);
+    }
+
+    fclose(fp);
+
+    return 0;
+}*/
+
+#include <stdio.h>
+#include <errno.h>
+
+/*int main()
+{
+    FILE *fp;
+
+    fp = fopen("misra.txt", "r");
+
+    if(fp == NULL)
+    {
+        printf("Error Number = %d\n", errno);
+    }
+
+    return 0;
+}*/
+/*#include <stdio.h>
+
+int main()
+{
+    FILE *fp;
+
+    fp = fopen("mis.txt","r");
+
+    if(fp == NULL)
+    {
+        perror("File Opening Failed");
+    }
+
+    return 0;
+}*/
+//exit status
+/*int main()
+{
+    FILE *fp;
+
+    fp = fopen("misra.txt","r");
+
+    if(fp == NULL)
+    {
+        printf("File Not Found\n");
+        exit(EXIT_FAILURE);
+    }
+
+    printf("File Opened");
+
+    fclose(fp);
+
+    exit(EXIT_SUCCESS);
+    
+}*/
+#include <stdio.h>
+#include <errno.h>
+#include <string.h>
+
+/*int main()
+{
+    FILE *fp;
+
+    fp = fopen("student.txt","r");
+ 
+    if(fp == NULL)
+    {
+        printf("Error : %s\n", strerror(errno));
+    }
+
+    return 0;
+}
+int main(){
+    int a=6;
+    int b=6/0;
+    printf("%d",b);
+}*/
+
+int main(){
+    int a=6;
+  int b=2;
+
+    if(b==0){
+        printf("zero is not allowed");
+    }
+    else{
+        printf("%d",a/b);
+    }
+  return 0;
+}
+
+
+
+
+
+
+
+
+
+
